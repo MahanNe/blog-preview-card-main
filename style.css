@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --Yellow: hsl(47, 88%, 63%);
+    --myFont: 'Figtree', sans-serif;
+}
+
+body {
+    background-color: var(--Yellow);
+    font-family: var(--myFont);
+    font-size: 16px;
+    overflow: hidden;
+}
+
+span {
+    color: var(--Grey);
+}
+
+h4,
+h5,
+h6 {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 375px;
+    margin: 50px auto;
+    position: relative;
+    border: 2px solid var(--Black);
+    border-radius: 25px;
+    background-color: var(--White);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+    padding: 10px;
+    border-radius: 25px;
+    border-color: var(--Black);
+    background-color: var(--White);
+}
+
+p {
+    color: var(--Grey);
+}
